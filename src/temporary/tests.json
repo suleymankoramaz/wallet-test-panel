@@ -1,0 +1,28 @@
+{
+  "tests" : [
+    {
+      "ScenarioId": 0,
+      "Title": "Authentication",
+      "LongDescription": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
+      "ShortDescription": "Oturum açacağınız metodu test edin.",
+      "ScenarioRequestType": 1,
+      "ScenarioInputs": ["<Input placeholder='input 1'/>","<Input placeholder='input 2'/>","<Input placeholder='input 3'/>","<Input placeholder='input 4'/>"]
+    },
+    {
+      "ScenarioId": 1,
+      "Title": "Bahis Yap",
+      "LongDescription": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur." ,
+      "ShortDescription": "Bahis yapacağınız metodu test edin.",
+      "ScenarioRequestType": 2,
+      "ScenarioInputs": ["<Input placeholder='input 1'/>","<Input placeholder='input 2'/>"]
+    },
+    {
+      "ScenarioId": 2,
+      "Title": "Kazanan Bilgilerini Al",
+      "LongDescription": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
+      "ShortDescription": "Kazanan bilgilerini alacağınız metodu test edin.",
+      "ScenarioRequestType": 1,
+      "ScenarioInputs": ["<Input placeholder='input 1'/>"]
+    }
+  ]
+}

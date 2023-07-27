@@ -1,0 +1,81 @@
+.App {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 2% 5% 0% 5%;
+}
+.App .layout-container {
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  justify-content: center;
+}
+.App .layout-container .collapse {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  color: test-header-default;
+}
+.App .layout-container .collapse .ant-collapse-header {
+  background-color: #FCE883;
+}
+.App .layout-container .collapse .collapse-icon {
+  margin-top: 30px;
+}
+.App .layout-container .collapse .panel-container {
+  display: flex;
+  flex-direction: column;
+}
+.App .layout-container .collapse .panel-container .panel-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.App .layout-container .collapse .panel-container .panel-header h3 {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+.App .layout-container .collapse .panel-container .panel-header p {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+.App .layout-container .collapse .panel-container .panel {
+  display: flex;
+  flex-direction: column;
+}
+.App .layout-container .collapse .panel-container .panel .panel-body-details {
+  margin-bottom: 20px;
+}
+.App .layout-container .collapse .panel-container .panel .panel-body-details .gutter-row .gutter-col .input-div {
+  background-color: black;
+}
+.App .layout-container .collapse .panel-container .panel .panel-body .panel-body-top {
+  display: flex;
+  margin-bottom: 24px;
+}
+.App .layout-container .collapse .panel-container .panel .panel-body .panel-body-top .test-info {
+  display: flex;
+}
+.App .layout-container .collapse .panel-container .panel .panel-body .panel-body-top .test-info h4 {
+  margin: 0;
+}
+.App .layout-container .collapse .panel-container .panel .panel-body .panel-body-top .test-info p {
+  margin: 0;
+  margin-left: 10px;
+}
+.App .layout-container .collapse .panel-container .panel .panel-body .panel-body-bottom {
+  display: flex;
+  border-top: 0.5px solid #000000;
+}
+.App .layout-container .collapse .panel-container .panel .panel-body .panel-body-bottom .request-container {
+  margin-top: 24px;
+  width: 50%;
+  height: 100px;
+}
+.App .layout-container .collapse .panel-container .panel .panel-body .panel-body-bottom .response-container {
+  border-left: 0.5px solid #000000;
+  margin-top: 24px;
+  width: 50%;
+  height: 100px;
+  padding-left: 40px;
+}/*# sourceMappingURL=global.css.map */

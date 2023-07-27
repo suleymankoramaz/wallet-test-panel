@@ -1,0 +1,114 @@
+$color: #000000;
+$test-header-success: #3BB143;
+$test-header-failed:     #ff3333;
+$test-header-default: #FCE883;
+
+.App {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 2% 5% 0% 5%;
+
+  .layout-container {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    justify-content: center;
+
+    .collapse {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      color: test-header-default;
+
+      .ant-collapse-header {
+        background-color: $test-header-default;
+      }
+      
+      .collapse-icon {
+        margin-top: 30px;
+      }
+
+      .panel-container {
+        display: flex;
+        flex-direction: column;
+
+        .panel-header {
+          display: flex;
+          justify-content: space-between;
+          align-items: center;
+
+          h3 {
+            margin-top: 0;
+            margin-bottom: 0;
+          }
+
+          p {
+            margin-top: 0;
+            margin-bottom: 0;
+          }
+        }
+
+        .panel {
+          display: flex;
+          flex-direction: column;
+
+          .panel-body-details {
+            margin-bottom: 20px;
+
+            .gutter-row {
+
+              .gutter-col {
+
+                .input-div {
+                  background-color: black;
+                }
+              }
+            }
+            
+          }
+
+          .panel-body {
+
+            .panel-body-top {
+              display: flex;
+              margin-bottom: 24px;
+
+              .test-info {
+                display: flex;
+
+                h4 {
+                  margin: 0;
+                }
+
+                p {
+                  margin: 0;
+                  margin-left: 10px;
+                }
+              }
+            }
+
+            .panel-body-bottom {
+              display: flex;
+              border-top: 0.5px solid $color;
+              
+              .request-container {
+                margin-top: 24px;
+                width: 50%;
+                height: 100px;
+              }
+
+              .response-container {
+                border-left: 0.5px solid $color;
+                margin-top: 24px;
+                width: 50%;
+                height: 100px;
+                padding-left: 40px;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
